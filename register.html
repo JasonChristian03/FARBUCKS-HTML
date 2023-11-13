@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FARBUCKS</title>
+    <link rel ="stylesheet" media="screen and (min-width:801px)" href="style.css">
+    <link rel ="stylesheet" media="screen and (max-width:800px)" href="style2.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com/%22%3E">
+    <link rel="preconnect" href="https://fonts.gstatic.com/" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Abel&display=swap" rel="stylesheet">
+    <script src = "./register.js" defer></script>
+</head>
+<body>
+    <div class="header">
+        <img src="FArbucks.png" class="logo1">
+        <nav>
+            <ul>
+                <li onclick="window.location.href='index.html'">Home</li>
+                <li onclick="window.location.href='coffee.html'">Coffee</li>
+                <li onclick="window.location.href='event.html'">Events</li>
+                <li onclick="window.location.href='about.html'">About Us</li>
+                <li onclick="window.location.href='register.html'">Register</li>
+            </ul>
+        </nav>
+    </div>
+    <div class="content5">
+        <img src="temp1.png" class="temp1">
+        <p class="regTitle">REGISTER</p>
+        <div class="regisForm">
+            <form>
+                <div class="regisName">
+                    <label for="fullName">Full Name</label><br>
+                    <div class="regisJarak">
+                        <label for="email">Email</label><br>
+                    </div>
+                    <div class="regisJarak">
+                        <label for="Password">Password</label><br>
+                    </div>
+                    <div class="regisJarak">
+                        <label for="address">Address</label><br>
+                    </div>
+                </div>
+                <div class="formBox">
+                    <input type="text" id="fullName" name="fullName" class="box1"><br>
+                    <input type="email" id="email" name="email" class="box"><br>
+                    <input type="password" id="password" name="password" class="box"><br>
+                    <input type="text" id="address" name="address" class="box"><br>
+                    <input type="checkbox" id="agree" name="agree" value="agree" class="agreeBox">
+                    <label for="agree" class="agree">I Agree with Terms & Conditions</label><br>
+                    <input type="submit" value="SUBMIT" class="submit" onclick="validateForm()">
+                </div>
+            </form>
+        </div>
+        <img src="temp2.png" class="temp2">
+    </div>
+    <div class="footer">
+        <img src="farbucks2.png" class="logo2">
+        <a href="https://www.instagram.com/starbucksindonesia/"><img src="ins.png" class="ins"></a>
+        <a href="https://www.facebook.com/StarbucksIndonesia"><img src="fb.png" class="fb"></a>
+        <a href="https://www.youtube.com/watch?v=zD65U-7QE8I"><img src="yt.png" class="yt"></a>
+        <p class="locTitle">Our Location</p>
+        <p class="location">Jl. Pakubuwono VI No.107, RT.11/RW.2, Gunung, Kec. Kby. Baru, Kota Jakarta Selatan, Daerah Khusus Ibukota Jakarta 12120</p>
+    </div>  
+</body>
+</html>
